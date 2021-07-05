@@ -91,6 +91,9 @@ body{
     font-size: 20px;
 }
 /*new recipie start here*/
+#recipe{
+    margin-bottom: 60px;
+}
 .recepie-text{
     width: 65%;
     text-align: center;
@@ -124,4 +127,20 @@ body{
     font-size: 18px;
     color: rgb(117, 106, 106);
     line-height: 1.5;
+}
+/*new footer section start here*/
+#footer-item{
+    text-align: center;
+    background: black;
+    color: white;
+    height: 250px;
+    padding-top: 30px;
+   
+}
+#footer-item span{
+    color: rgb(238, 45, 45);
+}
+#footer-item p{
+    color: rgb(166, 192, 140);
+    font-size: 20px;
 }

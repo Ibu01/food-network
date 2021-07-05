@@ -5,6 +5,7 @@ body{
 }
 .food-network{
     display: flex;
+    margin-bottom: 100px;
 }
 .home-healty{
     color: #8e6363;
@@ -29,6 +30,7 @@ body{
     border-radius: 10px;
     background-image:linear-gradient(red,green);
     margin-top: 50px;
+    box-shadow: 10px 10px 10px  rgb(204, 105, 105);
 }
 .order-btn a{
     text-decoration: none;
@@ -43,6 +45,48 @@ body{
 }
 .home-img{
     width: 40%;
-    margin-left:0 ;
-    margin-right: 5%; 
+    margin-left: 0;
+    margin-right: 5%;
+}
+.about-me{
+    display: flex;
+    background-image: url(images/Frame\ 58.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 100px;
+    overflow: hidden;
+}
+.about-img{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.about-desc{
+    width: 40%;
+    margin-top: 100px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.about-desc h1{
+    font-size: 40px;
+    color: rgb(116, 28, 28);
+}
+.about-desc p{
+    font-size: 20px;
+    color: rgb(97, 146, 6);
+    line-height: 1.7;
+}
+.contact-btn{
+    text-decoration: none;
+    padding: 20px 30px;
+    border: none;
+    border-radius: 10px;
+    background-image:linear-gradient(rgb(221, 19, 130),rgb(8, 8, 224));
+    margin-top: 30px;
+    box-shadow: 10px 10px 10px  rgb(204, 105, 105);
+}
+.contact-btn a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
 }

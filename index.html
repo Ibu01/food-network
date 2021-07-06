@@ -11,8 +11,16 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  
-   <section class="food-network">
+  <nav class="navbar-container">
+      <div class="navbar-menu">
+          <a href="#">Home</a>
+          <a href="#about-me">About</a>
+          <a href="#recipe">Recepie</a>
+          <a href="#contact-me">Contact</a>
+          <a href="#footer-item">Network</a>
+      </div>
+  </nav>
+   <section id="food-network">
     <div class="home-menu">
         <h1 class="home-healty">Just Eat <span>Healty</span></h1>
         <h1 class="home-healty">Welcome to Healthy Deit,</h1>
@@ -33,7 +41,7 @@
     </div>
    </section>
 <!--About me section start here-->
-    <section class="about-me">
+    <section id="about-me">
         <div class="about-img">
             <img src="images/bergur.png" alt="">
         </div>
@@ -92,6 +100,45 @@
 
            </div>
 
+    </section>
+    <!--contact section start here-->
+    <section id="contact-me">
+        <div class="contact-div">
+            <h1>Contact Me</h1>
+        </div>
+        <form class="contact-form" action="">
+            
+            <div class="contact-value">
+            <p><label for="fullname">FullName</label></p>
+            <input type="text" name="fullName">
+            </div>
+
+           <div class="contact-value">
+            <p><label for="email">Email</label></p>
+            <input type="email" name="email">
+           </div>
+
+        <div class="contact-value">
+            <p><label for="number"></label>Phone Number</label></p>
+            <input type="text" name="number">
+        </div>
+
+        <div class="contact-value-two">
+            <p>Please Select Your Gender:</p>
+            <div class="contact-input">
+              <input type="radio" id="male"name="gender" value="Male">
+              <label for="male">Male</label><br>
+              <input type="radio" id="female"name="gender" value="Female">
+              <label for="female">Female</label>
+            </div>
+        </div>
+
+        <div class="submit-reset">
+           <input type="button"id="submit-button" value="Submit">
+           <input type="reset" id="reset-button" value="Reset">
+        </div>
+
+        </form>
     </section>
     <!--Footer section start here-->
     <footer id="footer-item">

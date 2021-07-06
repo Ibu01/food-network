@@ -3,7 +3,31 @@ body{
     padding: 0;
     font-family: 'Lato', sans-serif;
 }
-.food-network{
+/*navbar strat here*/
+
+.navbar-container{
+    background: #b35cbd;
+    overflow: hidden;
+    height: 110px;
+}
+.navbar-menu{
+    display: flex;
+    float:right;
+}
+.navbar-menu a{
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    margin-top: 32px;
+}
+.navbar-menu a:hover{
+    transform: scale(1.1);
+    transition: .5s;
+    text-decoration: underline;
+}
+/*new section*/
+#food-network{
     display: flex;
     margin-bottom: 100px;
 }
@@ -48,7 +72,7 @@ body{
     margin-left: 0;
     margin-right: 5%;
 }
-.about-me{
+#about-me{
     display: flex;
     background-image: url(images/Frame\ 58.jpg);
     background-repeat: no-repeat;
@@ -128,12 +152,79 @@ body{
     color: rgb(117, 106, 106);
     line-height: 1.5;
 }
+/*contact section start here*/
+.contact-div{
+    text-align: center;
+    font-size: 30px;
+    color: rgb(226, 196, 22);
+}
+.contact-form{
+    width: 80%;
+    margin: auto;
+    background-color: rgb(0, 162, 255);
+    height: 550px;
+}
+.contact-value{
+    padding-top: 10px;
+}
+.contact-value p{
+    margin-left: 10%;
+    font-size: 20px;
+}
+.contact-value input{
+    width: 80%;
+    height: 40px;
+    margin-left: 10%;
+    border:none;
+    border-radius: 5px;
+}
+.contact-value-two{
+    display: flex;
+}
+.contact-value-two p{
+      margin-left: 10%;
+      font-size: 20px;
+}
+.contact-input{
+    margin-top: 25px;
+    display: flex;
+}
+.submit-reset{
+    margin-left: 10%;
+    margin-top: 20px;
+}
+#submit-button{
+    font-size: 20px;
+    border: none;
+    padding: 10px 20px;
+    background-color: rgb(51, 13, 189);
+    margin-right: 20px;
+    color: white;
+}
+#submit-button:hover{
+    background-image: linear-gradient(yellow,green);
+    cursor: pointer;
+}
+
+#reset-button{
+    font-size: 20px;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    background-image: linear-gradient(red,rgb(179, 255, 0));
+}
+#reset-button:hover{
+    cursor: pointer;
+    color:white;
+    background:rgb(0 162 253);
+    border: 1px solid black;
+}
 /*new footer section start here*/
 #footer-item{
     text-align: center;
     background: black;
     color: white;
-    height: 250px;
+    height: 200px;
     padding-top: 30px;
    
 }

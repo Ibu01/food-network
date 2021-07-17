@@ -235,3 +235,87 @@ body{
     color: rgb(166, 192, 140);
     font-size: 20px;
 }
+@media only screen and (max-width:688px) {
+    /* naver start here */
+    .navbar-container{
+        height: 520px;
+        margin: 0 auto;
+    }
+    .navbar-menu  {
+        flex: none;
+        float: none;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        justify-content: center;
+        align-items: center;
+    }
+    .navbar-menu a{
+        text-align: center;
+        font-size: 30px;
+    }
+    .navbar-menu a:hover{
+        text-decoration: none;
+        background-color: rgb(216, 42, 42);
+    }
+    /* food network  strat here */
+    #food-network{
+        flex: none;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        justify-content: center;
+        align-items: center;
+    }
+    .home-menu{
+        margin-bottom: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 50px auto;
+    }
+    .home-healty{
+        font-size: 30px;
+        text-align: center;
+    }
+    .home-pera{
+        font-size: 18px;
+        text-align: center;
+    }
+    #about-me{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        margin: auto;
+        padding-bottom: 40px;
+    }
+    .about-img{
+        width: 100%;
+    }
+    .about-desc{
+        width: 100%;
+    }
+    .recepie-item{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .menu-item-one{
+        width: 400px;
+        height: 400px;
+        overflow: hidden;
+    }
+    .menu-item-one p{
+        font-size: 14px;
+    }
+    .contact-form{
+        border-radius: 10px;
+        margin-bottom: 30px;
+    }
+    .contact-input{
+        justify-content: center;
+        align-items: center;
+    }
+}
